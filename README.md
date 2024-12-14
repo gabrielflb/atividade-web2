@@ -13,7 +13,7 @@ Gabriel Ferreira Lima brito
 ### Para rodar a aplicação deve se digitar o comando ```mvn spring-boot:run``` na pasta do projeto.
 
 ## Seguem as imagens dos testes dos end point utilizando Json:
-###GET:
+**GET**:
 - ![GET](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/get.PNG)
 ###POST:
 - ![POST](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/post.PNG)
