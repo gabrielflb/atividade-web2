@@ -1,0 +1,11 @@
+ifba\edu\web2\controller\impl\UsuarioController.class
+ifba\edu\web2\Web2Application.class
+ifba\edu\web2\service\UsuarioService.class
+ifba\edu\web2\domain\entity\Usuario.class
+ifba\edu\web2\domain\dto\UsuarioDTO.class
+ifba\edu\web2\exception\NotFoundException.class
+ifba\edu\web2\repository\UsuarioRepository.class
+ifba\edu\web2\domain\dto\UsuarioDTO$UsuarioDTOBuilder.class
+ifba\edu\web2\mapper\UsuarioMapperImpl.class
+ifba\edu\web2\mapper\UsuarioMapper.class
+ifba\edu\web2\service\imp\UsuarioServiceImpl.class

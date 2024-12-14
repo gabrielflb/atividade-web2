@@ -1,0 +1,39 @@
+2024-12-13 21:49:08.135833-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, data_nascimento date, nome varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, data_nascimento date, nome varchar(255), primary key (id)) [42001-232]
+2024-12-13 21:49:12.939541-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:49:15.142193-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:49:15.661939-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:49:15.985333-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:49:16.196217-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:49:16.361405-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:49:16.559854-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:50:51.652703-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, data_nascimento date, nome varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, data_nascimento date, nome varchar(255), primary key (id)) [42001-232]
+2024-12-13 21:51:00.433078-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:51:01.351829-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
+2024-12-13 21:52:10.223117-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id bigint not null, data_nascimento date, nome varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, data_nascimento date, nome varchar(255), primary key (id)) [42001-232]
+2024-12-13 21:52:28.309837-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.data_nascimento,u1_0.nome from [*]user u1_0"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.data_nascimento,u1_0.nome from user u1_0 [42001-232]
