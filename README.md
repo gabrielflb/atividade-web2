@@ -2,7 +2,7 @@
 Gabriel Ferreira Lima brito
 ```
 
-# Atividade DevOps 
+# Atividade DevOps - *Professor: Alex Gondim*
 
 ## Desenvolvi essa aplicação conforme a descrição da atividade.
 - Utilizei o site <https://start.spring.io/> para fazer o download das dependencias.
