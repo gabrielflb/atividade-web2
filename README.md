@@ -15,9 +15,9 @@ Gabriel Ferreira Lima brito
 ## Seguem as imagens dos testes dos end point utilizando Json:
 **GET**:
 - ![GET](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/get.PNG)
-###POST:
+**POST**:
 - ![POST](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/post.PNG)
-###PUT:
+**PUT**:
 - ![PUT](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/put.PNG)
-###DELETE:
+**DELETE**:
 - ![DELETE](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/delete.PNG)
