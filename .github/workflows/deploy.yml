@@ -14,19 +14,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. Configura o Docker para usar o cache do GitHub Actions
+      # 2. Listar arquivos para verificar o Dockerfile
+      - name: List files
+        run: ls -la
+
+      # 3. Configura o Docker para usar o cache do GitHub Actions
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
-
-      # 3. Configura o JDK 21 e executa o Maven para gerar o JAR
-      - name: Set up JDK 21 and build with Maven
-        uses: actions/setup-java@v3
-        with:
-          java-version: '21'
-          distribution: 'adoptopenjdk'  # Adicionando a distribuição correta do JDK
-
-      - name: Build with Maven
-        run: mvn clean package -DskipTests  # Ou mvn clean package, dependendo da configuração do seu projeto
 
       # 4. Loga no Docker Hub
       - name: Log in to Docker Hub
