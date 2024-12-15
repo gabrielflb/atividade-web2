@@ -22,4 +22,5 @@ Gabriel Ferreira Lima brito
 - **DELETE**:
 ![DELETE](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/delete.PNG)
 
-## O deploy foi feito com Docker utilizando o git actions
+## O deploy foi feito com Docker utilizando o git actions para automatizar
+-**LINK** da imagem gerada no docker : https://hub.docker.com/r/gabrielflb/web2-app
