@@ -1,0 +1,41 @@
+name: CI/CD Deploy
+
+on:
+  push:
+    branches:
+      - main # Executa o workflow em push para o branch principal.
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout do código
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Configuração de login no Docker
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+
+    # Construir a imagem Docker
+    - name: Build and Push Docker image
+      run: |
+        docker build -t username/app-name:latest .
+        docker push username/app-name:latest
+
+    # Deploy no servidor (Exemplo SSH)
+    - name: Deploy to server
+      uses: appleboy/ssh-action@v0.1.11
+      with:
+        host: ${{ secrets.SERVER_HOST }}
+        username: ${{ secrets.SERVER_USER }}
+        password: ${{ secrets.SERVER_PASSWORD }}
+        script: |
+          docker pull username/app-name:latest
+          docker stop app-container || true
+          docker rm app-container || true
+          docker run -d --name app-container -p 80:80 username/app-name:latest
