@@ -21,3 +21,9 @@ Gabriel Ferreira Lima brito
 ![PUT](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/put.PNG)
 - **DELETE**:
 ![DELETE](https://github.com/gabrielflb/atividade-web2/blob/main/web2/img/delete.PNG)
+
+## Fazendo Deploy com Docker:
+- Primeiramente fiz o download do Docker
+- Depois de fazer o download instalei a dependencia:Apache Maven JAR Plugin versão 3.4.2. Em seguida executei o comando mvn clean package para ele limpar e criar a pasta target no meu projeto com o arquivo .JAR
+- 
+- 
