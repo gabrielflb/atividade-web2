@@ -23,10 +23,9 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '21'
-          distribution: 'adoptopenjdk'
 
       - name: Build with Maven
-        run: mvn clean package -DskipTests  # Ou mvn clean package, dependendo da configuração do seu projeto
+        run: mvn clean package  # Ou mvn clean package, dependendo da configuração do seu projeto
 
       # 4. Loga no Docker Hub
       - name: Log in to Docker Hub
